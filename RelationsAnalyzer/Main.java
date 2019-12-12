@@ -3,6 +3,7 @@ package RelationsAnalyzer;
 public class Main {
     public static void main(String[] args) {
 
+        //Provide path to file here.
         Relation relation = new Relation("C:\\Users\\just-\\Desktop\\samples\\sample9.txt");
 
         System.out.println(relation);

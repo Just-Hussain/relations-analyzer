@@ -8,12 +8,13 @@ That`s what happens when i try to code something without first really studying i
 I took the general idea of everything and got to work. What i did in 300 lines for the Hasse Diagram can be accomplished in WAY less. I actually forgot that i even have a matrix that i can process in much simpler ways. Instead, i wrote a structure to store the matrix in THEN process the stucture rather than the matrix, which resulted in an absolute mess. Tryin to solve any problem just complicated it further, so yeah xD.
 
 # HOW TO
-- It takes a *.txt* file with the following structure:
-    3                    <- *number of elements*
-    1 2 3                <- *elements sperated by a space*
-                         <- *empty line*
-    0 1 0                <- *the matrix*
-    1 1 0
-    1 0 1
+- It takes a *.txt* file with the following structure:<br>
+3
+<br>
+1 2 3
+<br><br>
+1 0 1<br>
+0 1 0<br>
+0 0 1<br>
 - Provide the absolute path to the files in the constructor.
     

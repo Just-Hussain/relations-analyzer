@@ -54,6 +54,7 @@ public class Relation {
         } catch (FileNotFoundException e)
         {
             System.out.println("File Not Found, Exiting.");
+            System.exit(0);
         }
 
         this.size = in.nextInt();
@@ -313,7 +314,7 @@ public class Relation {
                 }
             }
             removeTransitiveEdges();
-            printHasseNode();
+            //printHasseNode();
         }
 
 
@@ -570,16 +571,16 @@ public class Relation {
         }
 
 
-        private void printHasseNode()
-        {
-            for (int i = 0; i < size; i++)
-            {
-                System.out.println("data: " + diagram[i].data);
-                System.out.println("nexts: " + diagram[i].nexts);
-                System.out.println("prevs: " + diagram[i].prevs);
-                System.out.println("------------------------------");
-            }
-        }
+//        private void printHasseNode()
+//        {
+//            for (int i = 0; i < size; i++)
+//            {
+//                System.out.println("data: " + diagram[i].data);
+//                System.out.println("nexts: " + diagram[i].nexts);
+//                System.out.println("prevs: " + diagram[i].prevs);
+//                System.out.println("------------------------------");
+//            }
+//        }
     }
 
 
