@@ -1,9 +1,11 @@
+package RelationsAnalyzer;
+
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.util.*;
 
 /**
- * <h1>Relation</h1>
+ * <h1>RelationsAnalyzer.Relation</h1>
  *
  * @author Hussain Al-Bin Hajji
  */
